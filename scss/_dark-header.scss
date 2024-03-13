@@ -1,0 +1,69 @@
+.site-header{
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.06);
+    background: #2b3844;
+    &__wrapper{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 80px;
+    }
+    &__link_title{
+        font-family: var(--font-family);
+        font-weight: 800;
+        font-size: 24px;
+        color: #fff;
+    }
+    &__wrapper_right{
+        width: 108px;
+        height: 22px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 8px;
+        
+    }
+    &__dark-mode-title{
+        font-family: var(--font-family);
+        font-weight: 600;
+        font-size: 16px;
+        color: #fff;
+    }
+    @media only screen and (max-width: 768px) {
+        &__wrapper{
+            display: flex;
+            width: 100%;
+            height: 100%;
+            justify-content: space-around;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        &-wraper-right {
+            margin: 0;
+            padding: 0;
+        }
+        &__link_title{
+            font-size: 14px;
+        }
+        
+    }
+
+
+}
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background: #202c36;
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-weight: 600;
+    font-weight: 400;
+    font-weight: 200;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100,
+    "YTLC" 500;
+    
+}

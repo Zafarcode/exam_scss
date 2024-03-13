@@ -1,0 +1,130 @@
+.site-main{
+    &__hero{
+        margin-top: 48px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__form{
+        width: 480px;
+        height: 56px;
+        border-radius: 5px;
+        box-shadow: 0 2px 9px 0 rgba(0, 0, 0, 0.05);
+        background: #2b3844;
+        
+    }
+    &__form-search{
+        width: 18px;
+        height: 18px;
+        margin-left: 32px;
+        margin-top: 19px;
+        padding-right: 24px;
+        
+       
+    }
+    &__wrapper-search-text{
+        margin-bottom: 22px;
+        border: none;
+        background-color: #2b3844;
+        -webkit-text-fill-color: #fff;
+    }
+    &__wrapper-region-select{
+        width: 200px;
+        height: 56px;
+        border-radius: 5px;
+        border: none;
+        box-shadow: 0 2px 9px 0 rgba(0, 0, 0, 0.05);
+        background: #2b3844;
+        color: #fff;
+        padding-left: 24px;
+    }
+    &__content-flags{
+        margin-top: 48px;
+        
+    }
+    &__cards{
+        display: grid;
+        grid-template-columns: repeat(4, auto);
+    }
+    &__card{
+        width: 264px;
+        height: 336px;
+        border-radius: 5px;
+        box-shadow: 0 0 7px 2px rgba(0, 0, 0, 0.03);
+        background: #2b3844;
+        margin: 36px auto;
+    }
+    &__card-subtitle{
+        font-family: var(--font-family);
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 144%;
+        color: #fff;
+        margin-left: 24px;
+        margin-top: 24px;
+        margin-bottom: 8px;
+    
+    }
+    
+    @media only screen and (max-width: 768px){
+        .container{
+            width: 100%;
+        }
+    
+       
+        &__cards{
+            width: 100%;
+            display: grid;
+            grid-template-columns: repeat(1 , auto);
+        }
+        &__hero{
+            display: grid;
+            grid-template-columns: repeat(1 ,auto);
+            margin-left: 16px;
+        }
+        &__form{
+            margin-bottom: 40px;
+        }
+        
+    
+        
+        .p{
+            font-size: 14px;
+            line-height: 16px;
+            padding-bottom: 8px;
+            margin-left: 24px;
+        }
+       
+    
+    
+    
+    
+        /* MOBILE VERSIYA MAIN END */
+    }
+
+
+
+}
+p{
+    margin-left: 24px;
+    margin-top: 8px;
+    color: #fff;
+
+}
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background: #202c36;
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-weight: 600;
+    font-weight: 400;
+    font-weight: 200;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100,
+    "YTLC" 500;
+    
+}
